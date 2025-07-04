@@ -34,7 +34,7 @@ function ThreeScene() {
     const ambientLight = new THREE.AmbientLight(0xffffff);
     scene.add(pointLight, ambientLight);
 
-    const spaceTexture = new THREE.TextureLoader().load("lab4.jpg");
+    const spaceTexture = new THREE.TextureLoader().load("lab2.jpg");
     scene.background = spaceTexture;
 
     const marceloTexture = new THREE.TextureLoader().load("me_hologram.png");
