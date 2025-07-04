@@ -1,0 +1,153 @@
+.canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  z-index: 0;
+}
+* {
+  color: rgb(255, 255, 255);
+}
+
+.menu {
+  font-family: "Orbitron", sans-serif;
+}
+
+.aboutme-container {
+  position: relative;
+  z-index: 10;
+  padding: 1rem;
+  width: 80%;
+  max-width: 800px;
+  padding: 1rem;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.9);
+  font-family: "Orbitron", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contact-container {
+  position: relative;
+  z-index: 10;
+  padding: 1rem;
+  width: 80%;
+  max-width: 800px;
+  padding: 1rem;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Orbitron", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: "Audiowide", sans-serif;
+  font-size: 2.5em;
+}
+
+.subtitle {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.5em;
+}
+
+.loading-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}
+
+.loading-h1 {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(6, 41, 94);
+  font-family: "Audiowide", sans-serif;
+  font-size: 2.5rem;
+}
+
+.home-container {
+  padding: 100px 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Orbitron", sans-serif;
+}
+
+.neon {
+  color: #fff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+.neonl {
+  color: #fff;
+  text-shadow: 0 0 2px #0ff, 0 0 4px #0ff, 0 0 8px #0ff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.projects-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  margin: 0 0 10px;
+  color: #555;
+  font-weight: 700;
+}
+
+.project-info p {
+  color: #555;
+}
+
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
