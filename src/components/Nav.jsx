@@ -51,7 +51,7 @@ function Nav({ className = "" }) {
             <FaLinkedin />
           </a>
           <a
-            href="https://www.facebook.com/seuperfil"
+            href="https://www.facebook.com/marcelo.holgado.50/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:bg-white/20 p-2 rounded"
@@ -59,7 +59,7 @@ function Nav({ className = "" }) {
             <FaFacebook />
           </a>
           <a
-            href="https://www.instagram.com/seuperfil"
+            href="https://www.instagram.com/holgado.marcelo/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:bg-white/20 p-2 rounded"
