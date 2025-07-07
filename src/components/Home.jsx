@@ -21,7 +21,7 @@ function Home() {
       title: "App for book BarberShop",
       description:
         "This an app for mobile to schedule an appointment in the barbershop. Made with flutter for mobile and backend in Node.js",
-      image: "/images/projeto3.jpg",
+      image: "trimbook.png",
       url: "https://github.com/seuusuario/projeto3",
     },
   ];

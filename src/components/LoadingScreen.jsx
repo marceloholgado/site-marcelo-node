@@ -83,7 +83,7 @@ function LoadingScreen({ onFinish }) {
       action = mixer.clipAction(filteredClip);
       action.play();
     });
-    const spaceTexture = new THREE.TextureLoader().load("lab4.jpg");
+    const spaceTexture = new THREE.TextureLoader().load("lab2.jpg");
     scene.background = spaceTexture;
     const clock = new THREE.Clock();
     let elapsedTime = 0;
